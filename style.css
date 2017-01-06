@@ -1,0 +1,158 @@
+
+/*BEGIN of styling for Website name, navigation menu and link behavior*/
+*{
+font-family: 'Italiana', serif;
+color: black;
+max-width: 1024px;
+min-width: auto;
+}
+
+h4 {
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 30px;
+  font-weight: bolder;
+  max-width: 400px;
+}
+
+h1 {
+position: relative;
+font-family: 'Reenie Beanie', cursive;
+font-size: 80px;
+margin: 0 auto;
+width: 450px;
+left: 120px;
+top:20px;
+margin-bottom:20px;
+}
+
+.subTitle{
+  position: absolute;
+  height: 35px;
+  left:850px;
+  top:50px;
+}
+
+#socialMedia {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  float: left;
+}
+header{
+  width:100%;
+}
+nav{
+  width: 100%;
+}
+#nav {
+font-family: 'Italiana', serif;
+position: relative;
+display: inline;
+text-align: center;
+}
+#nav li{
+  display: inline;
+  padding-left: 235px;
+}
+
+#nav li a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 50px 0 15px 0;
+}
+
+
+a:link {
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+    font-weight: bolder;
+}
+
+a:active {
+  font-weight: bolder;
+}
+/*END of styling for website name, navigation menu and link behavior*/
+
+.background-image{
+  z-index: -999;
+  position: absolute;
+  top:270px;
+  width:1024px;
+  left: 127px;
+}
+#storyImage {
+  width: 250px;
+  height: 250px;
+  padding-left: 325px;
+  padding-top: 250px;
+  display: block;
+}
+
+form{
+  display: inline-block;
+}
+
+#changeImageButton{
+  width: 75px;
+  height: 30px;
+  display: block;
+  position: absolute;
+  left: 415px;
+  top: 710px;
+}
+
+/*title*/
+input{
+  position: absolute;
+  width: 300px;
+ top: 373px;
+ left: 700px;
+ opacity: .7;
+ font-size: 20px;
+ font-family: 'Indie Flower', cursive;
+}
+
+/*textbox*/
+#textBox{
+  position: absolute;
+  width: 300px;
+  height: 250px;
+  top: 446px;
+  left: 700px;
+  opacity: .7;
+  font-style: bold;
+  font-size: 18px;
+  font-family: 'Henny Penny', cursive;
+}
+
+#clearText {
+  position: absolute;
+  left: 820px;
+  top: 710px;
+  width: 75px;
+  height: 30px;
+}
+
+#saveButton{
+  position: absolute;
+  top: 790px;
+  left: 960px;
+}
+button:hover {
+  background: #efd467;
+}
+
+.socialMedia {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  float: left;
+}
